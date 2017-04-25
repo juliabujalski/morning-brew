@@ -1,0 +1,200 @@
+/*Web downloaded fonts*/
+@font-face {
+  font-family: "Spartan";
+  src: url("../fonts/spartan-webfont.woff2") format("woff2"),
+  url("../fonts/spartan-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Shorelines";
+  src: url("../fonts/shorelines.woff2") format("woff2"),
+  url("../fonts/shorelines.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto.woff2") format("woff2"),
+  url("../fonts/roboto.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*establish body font*/
+body {
+  font-family: "Roboto";
+  padding: 6em 0 0 0;
+}
+
+/*removes all styling and padding from uls*/
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/*background color banner*/
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fbf49c;
+    overflow: hidden;
+    position: fixed;
+}
+
+#logo {
+  height: auto;
+  width: 4em;
+  padding: 1em 1em 1em 1em;
+}
+
+.nav {
+  list-style: none;
+  padding: 2em;
+  text-transform: uppercase;
+  font-family: "Spartan";
+  vertical-align: middle;
+  text-align: right;
+  font-size: 10pt;
+  float: right;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+h1 {
+  font-family: "Shorelines";
+  font-size: 20pt;
+  color: #2f1e11;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 1.5em .5em 1.5em;
+  border-bottom: thick solid #6fc7b2;
+  display: table;
+}
+
+h2, h3, h4 {
+  font-family: "Spartan";
+  color: #2f1e11;
+  text-align: center;
+}
+
+#header-pic {
+  max-width: 50%;
+  min-width: 20em;
+  margin: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 0 1em 1.5em 1em;
+  border-bottom: thick solid #6fc7b2;
+  display: table;
+}
+
+#about-title {
+  padding-top: -6em;
+  margin-top: 6em;
+  border-bottom: thick solid rgba(247, 152, 104, .4);
+}
+
+.prod-img {
+  max-width: 30%;
+  min-width: 15em;
+  display: block;
+  margin: 0 auto;
+  padding: 0 0 1em 0;
+}
+
+#ad {
+  max-width: 40%;
+  min-width: 20em;
+  display: block;
+  margin: auto;
+  padding: 1em;
+}
+
+#prod-title {
+  border-bottom: thick solid rgba(111, 199, 178, .8);
+  margin: 6em 0 0 0;
+  padding: -6em 1em 1em 1em;
+}
+
+#products {
+  border-bottom: thick solid #6fc7b2;
+  padding: 1em;
+}
+
+#light, #medium, #dark {
+    border-bottom: thick solid #6fc7b2;
+    padding: 1em;
+}
+
+.review-icon {
+  border-radius: 50%;
+  max-width: 20%;
+  min-width: 10em;
+  display: block;
+  margin: auto;
+}
+
+.review {
+  width: 60%;
+  margin: auto;
+}
+
+#reviews h3 {
+  padding: 0 0 1em 0 ;
+  border-bottom: thick solid rgba(247, 152, 104, .4);
+}
+
+@media (min-width: 50em) {
+
+  body {
+    padding: 6em;
+  }
+
+  h1 {
+    font-size: 25pt;
+  }
+
+  #light, #medium, #dark {
+    border-bottom: none;
+  }
+
+  .col1, .col2 {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .col1 {
+    width: 30%;
+    margin: auto;
+  }
+
+  .col2 {
+    width: 63%;
+    margin: auto;
+    padding: 0 2em 5em 0;
+    border-bottom: thick solid #6fc7b2;
+  }
+
+  .review-cols li {
+    display: inline-block;
+  }
+
+  .pic {
+    width: 30%;
+  }
+
+  .review {
+    width: 50%;
+  }
+
+  #reviews, h4 {
+    text-align: left;
+  }
+
+  }
